@@ -5,13 +5,13 @@ var expect = require('chai').expect,
 
 describe('2fa-totp strategy constructor', function () {
     
-    it('should export Strategy constructor directly from package', function() {
+    it('should export Strategy constructor directly from package', function () {
         expect(strategy).to.be.a('function');
         expect(strategy).to.be.equal(strategy.Strategy);
     });
     
     it('check strategy name and default parameters', function () {
-        var passport2faTotp = new strategy.Strategy(function() {}, function() {});
+        var passport2faTotp = new strategy.Strategy(function () {}, function () {});
         
         expect(passport2faTotp).to.be.an('object');
         expect(passport2faTotp.name).to.be.equal('2fa-totp');
@@ -59,7 +59,7 @@ describe('2fa-totp strategy constructor', function () {
     
     it('TOTP code verification callback is required', function () {
         var initStrategy = function () {
-            new strategy.Strategy(function() {});
+            new strategy.Strategy(function () {});
         };
         
         expect(initStrategy).to.throw(TypeError, '2FA TOTP Strategy required TOTP code verification callback');
