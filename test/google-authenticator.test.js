@@ -1,3 +1,5 @@
+'use strict';
+
 var expect = require('chai').expect,
     base32 = require('thirty-two'),
     GoogleAuthenticator = require('..').GoogeAuthenticator;
