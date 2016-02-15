@@ -1,0 +1,12 @@
+test/
+
+# Visual Studio Code
+typings/
+
+# Node.js
+.npmignore
+node_modules/
+npm-debug.log
+
+# Git
+.git*

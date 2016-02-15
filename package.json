@@ -1,0 +1,37 @@
+{
+  "name": "passport-2fa-totp",
+  "version": "0.0.1",
+  "description": "TOTP based Two-Factor Authentication for Passport and Node.js",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilich/passport-2fa-totp.git"
+  },
+  "keywords": [
+    "totp",
+    "opt",
+    "auth",
+    "authentication",
+    "security",
+    "passport"
+  ],
+  "author": "Ilya Verbitskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilich/passport-2fa-totp/issues"
+  },
+  "homepage": "https://github.com/ilich/passport-2fa-totp#readme",
+  "dependencies": {
+    "notp": "^2.0.3",
+    "passport-strategy": "^1.0.0",
+    "qr-image": "^3.1.0",
+    "thirty-two": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
