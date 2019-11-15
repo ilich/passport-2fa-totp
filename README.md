@@ -24,7 +24,7 @@ var TwoFAStartegy = require('passport-2fa-totp').Strategy;
 
 ...
 
-passport.use(new TwoFAStartegy(function (username, password, done) {
+passport.use(new TwoFAStrategy(function (username, password, done) {
     // 1st step verification: username and password
     
     User.findOne({ username: username }, function (err, user) {
