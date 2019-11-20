@@ -20,7 +20,7 @@ The 2FA TOTP authentication strategy authenticates a user using a username, pass
 
 ```js
 var GoogleAuthenticator = require('passport-2fa-totp').GoogeAuthenticator;
-var TwoFAStartegy = require('passport-2fa-totp').Strategy;
+var TwoFAStrategy = require('passport-2fa-totp').Strategy;
 
 ...
 
