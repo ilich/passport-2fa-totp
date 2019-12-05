@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "TOTP based Two-Factor Authentication for Passport and Node.js",
   "main": "./lib",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "mocha"
   },
