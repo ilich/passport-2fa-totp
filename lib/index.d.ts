@@ -44,10 +44,3 @@ export interface AuthenticateOptionsTOTP extends passport.AuthenticateOptions {
     requestVisibleActions?: any;
     openIDRealm?: any;
 }
-
-declare module 'passport' {
-    interface Authenticator<InitializeRet = Handler, AuthenticateRet = any, AuthorizeRet = AuthenticateRet, AuthorizeOptions = AuthenticateOptions> {
-        authenticate(strategy: '2fa-totp', options: AuthenticateOptionsTOTP, callback?: (...args: any[]) => any): AuthenticateRet;
-        authorize(strategy: '2fa-totp', options: AuthenticateOptionsTOTP, callback?: (...args: any[]) => any): AuthorizeRet;
-    }
-}
