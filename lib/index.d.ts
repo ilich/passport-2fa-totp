@@ -1,4 +1,4 @@
-import { Strategy as BaseStrategy, StrategyCreated } from 'passport-strategy';
+import { Strategy as BaseStrategy } from 'passport-strategy';
 import { Request, Handler } from 'express';
 import passport from 'passport';
 
@@ -22,7 +22,7 @@ export class Strategy extends BaseStrategy {
 		verifyUsernameAndPassword: (this: Strategy, username: string, password: string, verify: VerifyUsernameFn) => void,
 		verifyTotpCode: (this: Strategy, user: any, verify: VerifyTotpFn) => void
 	);
-	authenticate(this: StrategyCreated<this>, req: Request, options?: any): any;
+	authenticate(req: Request, options?: any): any;
 
 	success(user: any): any;
 	fail(err: Error): any;
