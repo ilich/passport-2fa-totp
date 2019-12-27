@@ -23,9 +23,6 @@ export class Strategy extends BaseStrategy {
 		verifyTotpCode: (this: Strategy, user: any, verify: VerifyTotpFn) => void
 	);
 	authenticate(req: Request, options?: any): any;
-
-	success(user: any): any;
-	fail(err: Error): any;
 }
 
 export class GoogleAuthenticator {
