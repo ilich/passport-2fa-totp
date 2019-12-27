@@ -1,8 +1,9 @@
 {
   "name": "passport-2fa-totp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TOTP based Two-Factor Authentication for Passport and Node.js",
   "main": "./lib",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "mocha"
   },
