@@ -27,8 +27,8 @@
   "dependencies": {
     "notp": "2.0.3",
     "passport-strategy": "1.0.0",
-    "qr-image": "^3.1.0",
-    "thirty-two": "^1.0.1"
+    "qr-image": "3.2.0",
+    "thirty-two": "1.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
