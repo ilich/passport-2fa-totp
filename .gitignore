@@ -35,3 +35,6 @@ jspm_packages
 
 # Visual Studio Code
 typings
+
+# Jetbrains
+.idea

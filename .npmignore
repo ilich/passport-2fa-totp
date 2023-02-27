@@ -10,3 +10,6 @@ npm-debug.log
 
 # Git
 .git*
+
+# Jetbrains
+.idea/
