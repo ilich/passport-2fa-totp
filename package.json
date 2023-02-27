@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilich/passport-2fa-totp.git"
+    "url": "git+https://github.com/ezeBalsamo/passport-2fa-totp.git"
   },
   "keywords": [
     "totp",
@@ -21,9 +21,9 @@
   "author": "Ilya Verbitskiy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ilich/passport-2fa-totp/issues"
+    "url": "https://github.com/ezeBalsamo/passport-2fa-totp/issues"
   },
-  "homepage": "https://github.com/ilich/passport-2fa-totp#readme",
+  "homepage": "https://github.com/ezeBalsamo/passport-2fa-totp#readme",
   "dependencies": {
     "notp": "^2.0.3",
     "passport-strategy": "^1.0.0",
