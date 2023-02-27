@@ -18,7 +18,7 @@
     "security",
     "passport"
   ],
-  "author": "Ilya Verbitskiy",
+  "author": "Alexander Ezequiel Bálsamo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ezeBalsamo/passport-2fa-totp/issues"
